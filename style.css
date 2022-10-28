@@ -1,0 +1,32 @@
+p {
+    font-family: monospace;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+}
+
+input {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.convert {
+    text-decoration: none;
+    padding: 10px 40px 10px 40px;
+    width: 2em;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 0 3px 10px;
+    background-color: aqua;
+    transition: all 0.2s;
+}
+
+.convert:hover {
+    box-shadow: none;
+}
+
+#result {
+    margin-top: 20px;
+}
