@@ -12,7 +12,7 @@ function convert() {
         var list = [...alphabet];
         var resultlist = [];
         for (var i = 0; i < list.length; i++) {
-            resultlist.push(('00' + text.indexOf(list[i]) + 1).slice(-2));
+            resultlist.push(('00' + (text.indexOf(list[i]) + 1)).slice(-2));
         }
         document.getElementById('result').textContent = resultlist.join('');
 
