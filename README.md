@@ -6,7 +6,6 @@ URL: https://mersnn621.github.io/Alphabet-number/
 
 割り当てられている数字は以下の通りです。
 
-|     |     |
 | --- | --- |
 | A   | 01  |
 | B   | 02  |
